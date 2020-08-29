@@ -1,0 +1,45 @@
+html {
+  color: #ffffff;
+  background-color: #848cff;
+}
+
+body {
+  font-family: "fira_sansmedium", monospace;
+  margin: auto;
+  max-width: 50rem;
+  padding: 2rem;
+}
+.menu ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+.menu li {
+  float: left;
+}
+
+.menu li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+.active {
+  background-color: #00c2ff;
+}
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+  background-color: #111;
+}
+
+@font-face {
+  font-family: 'fira_sansmedium';
+  src: url('fonts/firasanswoff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
